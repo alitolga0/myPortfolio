@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: '/myPortfolyo/', // GitHub Pages için doğru ayar
+  publicPath: '/dist/', // GitHub Pages için doğru ayar
   pages: {
     index: {
       entry: 'src/main.js',
