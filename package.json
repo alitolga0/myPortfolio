@@ -6,6 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "predeploy" : "npm run build",
+    "deploy" : "main -d dist",
     "lint": "vue-cli-service lint",
     "github":"gh-pages -d dist"
   },
