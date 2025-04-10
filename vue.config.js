@@ -2,15 +2,15 @@ const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: '/', // GitHub Pages için doğru ayar
+  publicPath: '/', 
   pages: {
     index: {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Index Page',
+      title: 'Ali Tolga Çakır',
       chunks: ['chunk-vendors', 'chunk-common', 'index']
     },
-    // Diğer sayfalar...
+   
   }
 });
