@@ -77,9 +77,9 @@ export default {
   data() {
     return {
       projects: [
-        { id: 1, title: 'Kharybulbul clone', image: require('@/assets/proje1.jpg'), link: 'https://github.com/alitolga0/Kharybulbul-' }, 
-        { id: 2, title: 'Microsoft clone', image: require('@/assets/proje2.jpg'), link: 'https://github.com/alitolga0/Microsoft' },
-        { id: 3, title: 'Dashboard Page', image: require('@/assets/proje3.jpg'), link: 'https://github.com/alitolga0/dashboard-page' },
+        { id: 1, title: 'Movie App', image: require('@/assets/proje1.jpg'), link: 'https://github.com/alitolga0/MovieApi' }, 
+        { id: 2, title: 'Book App', image: require('@/assets/proje2.jpg'), link: 'https://github.com/alitolga0/BookApp ' },
+        { id: 3, title: 'Car Rental App', image: require('@/assets/proje3.jpg'), link: 'https://github.com/alitolga0/CarRentalApi' },
       ],
       services: [
         { id: 1, name: 'Web Geliştirme', icon: 'fas fa-code', description: 'Modern ve dinamik web siteleri geliştiriyorum.' },

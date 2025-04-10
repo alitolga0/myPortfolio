@@ -18,12 +18,13 @@
     data() {
       return {
         languages: [
+         { name: '.Net', level: 4 },
+         { name: 'SQL', level: 4 },
           { name: 'Vue.js', level: 4 },
+          { name: 'React', level: 2 },
           { name: 'Javascript', level: 4 },
           { name: 'html css', level: 4 },
-          { name: 'React', level: 2 },
-          { name: 'Java', level: 3 },
-          { name: 'SQL', level: 3 },
+          { name: 'TypeScript ', level: 3 },
         ],
       };
     },
@@ -41,7 +42,7 @@
     padding: 10px; 
     margin: 10px auto; 
     background-color: #f9f9f9; 
-    width: 50%; 
+    width: 60%; 
   }
   
   .language-item {
