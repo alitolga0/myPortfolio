@@ -77,9 +77,9 @@ export default {
   data() {
     return {
       projects: [
-        { id: 1, title: 'Movie App', image: require('@/assets/proje1.jpg'), link: 'https://github.com/alitolga0/MovieApi' }, 
-        { id: 2, title: 'Book App', image: require('@/assets/proje2.jpg'), link: 'https://github.com/alitolga0/BookApp ' },
-        { id: 3, title: 'Car Rental App', image: require('@/assets/proje3.jpg'), link: 'https://github.com/alitolga0/CarRentalApi' },
+        { id: 1, title: 'ECommerce App', image: require('@/assets/proje3.jpg'), link: 'https://github.com/alitolga0/ECommerceApp' }, 
+        { id: 2, title: 'Smart Pet App', image: require('@/assets/proje1.jpg'), link: 'https://github.com/HakanDogann1/SmartPetProject' },
+        { id: 3, title: 'Air Quality Monitoring', image: require('@/assets/proje2.jpg'), link: 'https://github.com/alitolga0/AirqualityMonitoring' },
       ],
       services: [
         { id: 1, name: 'Web Geliştirme', icon: 'fas fa-code', description: 'Modern ve dinamik web siteleri geliştiriyorum.' },

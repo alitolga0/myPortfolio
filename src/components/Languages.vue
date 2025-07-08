@@ -18,13 +18,16 @@
     data() {
       return {
         languages: [
-         { name: '.Net', level: 4 },
-         { name: 'SQL', level: 4 },
+          { name: 'c#', level: 4 },
+          { name: '.Net', level: 4 },
+          { name: 'Java', level: 3 },
+          { name: 'SQL', level: 4 },
           { name: 'Vue.js', level: 4 },
-          { name: 'React', level: 2 },
           { name: 'Javascript', level: 4 },
+          { name: 'React', level: 2 },
           { name: 'html css', level: 4 },
-          { name: 'TypeScript ', level: 3 },
+          
+          
         ],
       };
     },
@@ -42,7 +45,7 @@
     padding: 10px; 
     margin: 10px auto; 
     background-color: #f9f9f9; 
-    width: 60%; 
+    width: 50%; 
   }
   
   .language-item {
@@ -71,5 +74,20 @@
   .dot.filled {
     background-color: #b9803a; 
   }
+  @media (max-width: 768px) {
+  .language-container {
+    width: 90%;
+    padding: 14px;
+  }
+
+  .language-name {
+    font-size: 1rem;
+  }
+
+  .dot {
+    width: 14px;
+    height: 14px;
+  }
+}
   </style>
   
